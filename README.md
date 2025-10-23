@@ -176,8 +176,8 @@ The system will now:
 
 ## 👨‍💻 Author
 
-**Shubham Gupta** 
-**Aman Kumar** 
-🌩️ Cloud Auto-Scaling Project (October 2025)
+- **Shubham Gupta** 
+- **Aman Kumar** 
+- 🌩️ Cloud Auto-Scaling Project (October 2025)
 
 ---
