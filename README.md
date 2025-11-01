@@ -159,8 +159,7 @@ The system will now:
 | Stage | Screenshot |
 |:------|:------------|
 | Load Balancer Running | ![Load Balancer](images/load_balancer.png) |
-| Scheduler Scaling Up | ![Scaling Up](images/scaling_up.png) |
-| Scheduler Scaling Down | ![Scaling Down](images/scaling_down.png) |
+| Scheduler Scaling Up/down | ![Scaling Up/Down](images/scaling_up.png) |
 | Client Requests | ![Client Load](images/client_requests.png) |
 
 ---
@@ -178,6 +177,5 @@ The system will now:
 
 - **Shubham Gupta** 
 - **Aman Kumar** 
-- 🌩️ Cloud Auto-Scaling Project (October 2025)
 
 ---
