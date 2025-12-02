@@ -63,7 +63,7 @@ def scale_up():
     
     print(f"[Scheduler] SCALING UP: Creating {vm_name}...")
     
-    subprocess.run(["python3", "create_vm_virt.py", vm_name])
+    subprocess.run(["python3", "scale_up.py", vm_name])
     ip = get_vm_ip(vm_name)
     
     if ip:
@@ -92,7 +92,7 @@ def scale_down():
 
     print(f"[Scheduler] SCALING DOWN: Deleting {vm_to_delete} ({ip})...")
     
-    subprocess.run(["python3", "delete_vm_virt.py", vm_to_delete])
+    subprocess.run(["python3", "scale_down.py", vm_to_delete])
     update_lb()
     last_scale_time = time.time()
     print(f"[Scheduler] SCALE DOWN complete for {vm_to_delete}.")
